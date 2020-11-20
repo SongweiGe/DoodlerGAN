@@ -76,6 +76,17 @@ Once the packages are installed, a png image can be converted to svg using the f
 convert input.png bmp:- | mkbitmap - -t 0.20 -o - | potrace --svg --group  -o - > output.svg
 ```
 
+## Citation
+```
+@misc{ge2020creative,
+      title={Creative Sketch Generation}, 
+      author={Songwei Ge and Vedanuj Goswami and C. Lawrence Zitnick and Devi Parikh},
+      year={2020},
+      eprint={2011.10039},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## License
 
